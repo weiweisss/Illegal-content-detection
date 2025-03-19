@@ -8,7 +8,7 @@ import time
 import requests
 import re
 aclient = AsyncOpenAI(
-    api_key="sk-141733f5b343421492093217fd493e5f",
+    api_key="xxxx",
     base_url="https://api.deepseek.com"
 )
 
@@ -91,7 +91,7 @@ async def main():
     parser.add_argument('--concurrency', default=10, type=int)
     args = parser.parse_args()
 
-    input_file = 'merged_test.csv'
+    input_file = 'merged.csv'
     output_file = 'new.csv'
 
     df = pd.read_csv(input_file)
