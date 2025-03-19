@@ -9,7 +9,7 @@ import requests
 import re
 import json
 aclient = AsyncOpenAI(
-    api_key="sk-141733f5b343421492093217fd493e5f",
+    api_key="xxxx",
     base_url="https://api.deepseek.com"
 )
 
