@@ -11,7 +11,7 @@ import re
 
 # %%
 aclient = AsyncOpenAI(
-    api_key="sk-141733f5b343421492093217fd493e5f",
+    api_key="your key",
     base_url="https://api.deepseek.com"
 )
 
